@@ -1,6 +1,6 @@
 // CLIENT app
 
-console.log('It works!');
+// console.log('It works!');
 
 $(document).ready(function(){
 
@@ -14,13 +14,24 @@ $(document).ready(function(){
 // Shows my About Me section
 function aboutMe() {
   event.preventDefault();
-  console.log('This section is About Me!');
+  // console.log('This section is About Me!');
+
   $('#show').empty();
-  $('#show').append('<div class="container text-center about-me">' +
-  '<h2 class="container" >About Me</h2>' +
-  '<p>I\'m new to software development. I graduated from <a ' +
+  $('#show').append('<div class="container about-me">' +
+  '<h2 class="container text-center" >About Me</h2>' +
+  '<p>I\'m new to software development and am extremely exicted and happy to be ' +
+  'working with technology to help solve porblems. I graduated from <a ' +
   'href="https://primeacademy.io/" target="_blank" >Prime Digital Academy</a> in ' +
-  'Bloomington, MN on May 13th, 2016.</p>' +
+  'Bloomington, MN on May 13th, 2016. There I learned the MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js). ' +
+  'I also worked with jQuery, Bootstrap, Angular-Material, PostgreSQL, Passport, and many other ' +
+  'great technologies.' +
+  '<br/>' +
+  '<br/>' +
+  'My family is what makes me the happiest. I have a loving wife and two amazing boys. ' +
+  'They always give me something to smile about. My hobbies are: hiking, gardening, video-games, ' +
+  'movies/tv, comedy, writing, beer, board games, deep conversation, and discovery! ' +
+  'I\'m addicted to learning and love to explore new oppritunities. Please feel free to contact me by ' +
+  '<a href="mailto:info@aaronrmcgrath.com" >email</a>.</p>' +
   '<div class="links text-center"><p>Here are links to my LinkedIn Profile and my Github ' +
   'repository<p>' +
   '<ul><li><a href="https://www.linkedin.com/in/aaron-mcgrath-969a9ba8" target="_blank">My LinkedIn Profile</a></li>' +
@@ -36,7 +47,7 @@ function aboutMe() {
 function resume() {
   event.preventDefault();
   $('#show').empty();
-  console.log('This section is my Resume!');
+  // console.log('This section is my Resume!');
 
   $('#show').append('<div class="container text-center resume-section" >' +
   '<object data="/assets/files/armcgrath_resume.pdf" type="application/pdf" ' +
@@ -50,10 +61,10 @@ function resume() {
 function examples() {
   event.preventDefault();
   $('#show').empty();
-  console.log('This section has Examples!');
+  // console.log('This section has Examples!');
 
-  $('#show').append('<div class="container text-center example-section" >' +
-  '<h2 class="container" >Examples</h2>' +
+  $('#show').append('<div class="container example-section" >' +
+  '<h2 class="container text-center" >Examples</h2>' +
   '<ul><li><h4>Calculator</h4><p>This was our Weekend 3 assignment at Prime. ' +
   'We had just began learning about servers. The idea here is to do all the logic ' +
   'server side. Check it out <a href="https://whispering-brushlands-63295.herokuapp.com/" ' +

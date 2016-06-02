@@ -6,6 +6,20 @@ html, body, h1, h2, h3, ol, ul, li, a {
       margin: 0;
 }
 
+#header {
+  margin: auto;
+  padding: 10px;
+}
+
 ul {
   list-style-type: none;
+}
+
+h2 {
+  margin: 15px;
+}
+
+p {
+  margin: 10px;
+  padding: 5px;
 }
