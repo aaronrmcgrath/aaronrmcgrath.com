@@ -51,7 +51,7 @@ function resume() {
 
   $('#show').append('<div class="container text-center resume-section" >' +
   '<object data="/assets/files/armcgrath_resume.pdf" type="application/pdf" ' +
-  'width="100%" height="1000 px" >' +
+  'width="100%" height="2500 px" >' +
   '</object>' +
   '</div>');
 }
