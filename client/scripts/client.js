@@ -29,8 +29,8 @@ function aboutMe() {
   '<br/>' +
   'My family is what makes me the happiest. I have a loving wife and two amazing boys. ' +
   'They always give me something to smile about. My hobbies are: hiking, gardening, video-games, ' +
-  'movies/tv, comedy, writing, beer, board games, deep conversation, and discovery! ' +
-  'I\'m addicted to learning and love to explore new oppritunities. Please feel free to contact me by ' +
+  'cooking, movies/tv, comedy, writing, craft beer, board games, deep conversation, and discovery! ' +
+  'I\'m addicted to learning and love to explore. Please feel free to contact me by ' +
   '<a href="mailto:info@aaronrmcgrath.com" >email</a>.</p>' +
   '<div class="links text-center"><p>Here are links to my LinkedIn Profile and my Github ' +
   'repository<p>' +
