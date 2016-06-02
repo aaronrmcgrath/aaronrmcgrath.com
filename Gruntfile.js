@@ -6,7 +6,8 @@ module.exports = function(grunt) {
         },
         watch: {
             client : {
-                files: ['client/scripts/**/*.js',
+                files: ['client/scripts/client.js',
+                    'client/scripts/**/*.js',
                     'client/views/**/*.html',
                     'client/styles/*.css'
                 ],
@@ -14,16 +15,6 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false
                 }
-            }
-        },
-        uglify: {
-            build: {
-                src: [
-                    'client/scripts/client.js',
-                    'client/scripts/controllers/*.js',
-                    'client/scripts/factories/*.js'
-                ],
-                dest: 'server/public/assets/scripts/client.min.js'
             }
         },
         cssmin: {
@@ -59,6 +50,12 @@ module.exports = function(grunt) {
                 ],
                 "dest": "server/public/assets/views/"
             },
+            script: {
+                expand: true,
+                cwd: 'client/scripts/',
+                src: ['client.js'],
+                "dest": "server/public/assets/scripts/"
+            },
             bootstrap: {
                 expand: true,
                 cwd: "node_modules/bootstrap/",
@@ -66,6 +63,12 @@ module.exports = function(grunt) {
                     "dist/**/*"
                 ],
                 "dest": "server/public/assets/vendors/bootstrap/"
+            },
+            stylesheet: {
+                expand: true,
+                cwd: 'client/styles',
+                src: ['stylesheet.css'],
+                "dest": "server/public/assets/styles/"
             }
         }
 
@@ -73,9 +76,8 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', ['copy', 'jshint', 'uglify','cssmin']);
+    grunt.registerTask('default', ['copy', 'jshint','cssmin']);
 };

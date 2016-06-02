@@ -1,11 +1,11 @@
 // SERVER
 
-var express = requre('express');
+var express = require('express');
 var app = express();
 
 // Routes //
 
-var index = require('/routes/index.js');
+var index = require('./routes/index.js');
 
 // Port //
 
