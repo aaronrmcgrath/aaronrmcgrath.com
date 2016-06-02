@@ -20,7 +20,7 @@ function aboutMe() {
   $('#show').append('<div class="container about-me">' +
   '<h2 class="container text-center" >About Me</h2>' +
   '<p>I\'m new to software development and am extremely exicted and happy to be ' +
-  'working with technology to help solve porblems. I graduated from <a ' +
+  'working with technology to help solve problems. I graduated from <a ' +
   'href="https://primeacademy.io/" target="_blank" >Prime Digital Academy</a> in ' +
   'Bloomington, MN on May 13th, 2016. There I learned the MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js). ' +
   'I also worked with jQuery, Bootstrap, Angular-Material, PostgreSQL, Passport, and many other ' +
@@ -66,7 +66,7 @@ function examples() {
   $('#show').append('<div class="container example-section" >' +
   '<h2 class="container text-center" >Examples</h2>' +
   '<ul><li><h4>Calculator</h4><p>This was our Weekend 3 assignment at Prime. ' +
-  'We had just began learning about servers. The idea here is to do all the logic ' +
+  'We had just begun learning about servers. The idea here is to do all the logic ' +
   'server side. Check it out <a href="https://whispering-brushlands-63295.herokuapp.com/" ' +
   'target="_blank" >here!</a></p></li>' +
   '<li><h4>Task List</h4><p>Our Weekend 4 assignment was a Task list. It was our ' +
