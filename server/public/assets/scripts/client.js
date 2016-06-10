@@ -14,15 +14,14 @@ $(document).ready(function(){
 // Shows my About Me section
 function aboutMe() {
   event.preventDefault();
+  $('#show').empty();
   // console.log('This section is About Me!');
 
-  $('#show').empty();
   $('#show').append('<div class="container about-me">' +
   '<h2 class="container text-center" >About Me</h2>' +
-  '<p>I\'m new to software development and am extremely exicted and happy to be ' +
-  'working with technology to help solve problems. I graduated from <a ' +
+  '<p>I\'m a software developmer that loves learning and solving problems. I graduated from <a ' +
   'href="https://primeacademy.io/" target="_blank" >Prime Digital Academy</a> in ' +
-  'Bloomington, MN on May 13th, 2016. There I learned the MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js). ' +
+  'Bloomington, MN in 2016. There I learned the MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js). ' +
   'I also worked with jQuery, Bootstrap, Angular-Material, PostgreSQL, Passport, and many other ' +
   'great technologies.' +
   '<br/>' +
@@ -67,16 +66,22 @@ function examples() {
 
   $('#show').append('<div class="container example-section" >' +
   '<h2 class="container text-center" >Examples</h2>' +
-  '<ul><li><h4>Calculator</h4><p>This was our Weekend 3 assignment at Prime. ' +
+  '<ul><li><h4><a href="https://whispering-brushlands-63295.herokuapp.com/" target="_blank" ' +
+  '>Calculator</a></h4><p>This was our Weekend 3 assignment at Prime. ' +
   'We had just begun learning about servers. The idea here is to do all the logic ' +
   'server side. Check it out <a href="https://whispering-brushlands-63295.herokuapp.com/" ' +
   'target="_blank" >here!</a></p></li>' +
-  '<li><h4>Task List</h4><p>Our Weekend 4 assignment was a Task list. It was our ' +
+  '<li><h4><a href="https://desolate-beyond-35018.herokuapp.com/" target="_blank" >Task List</a></h4><p>Our Weekend 4 assignment was a Task list. It was our ' +
   'first Full Stack application. We just learned about Databases. In this Project ' +
   'I used jQuery and a PostgreSQL database. I hosted it with heroku, check it out ' +
   '<a href="https://desolate-beyond-35018.herokuapp.com/" target="_blank" >here!</a></p></li>' +
-  '<li><h4>Home Grown Gardens</h4><p>My solo project at Prime. Coming Soon!</p></li>' +
-  '<li><h4>aaronrmcgrath.com</h4><p>This site was built with jQuery and Bootstrap.</p></li>' +
+  '<li><h4><a href="https://mysterious-gorge-27053.herokuapp.com/" target="_blank" >Home Grown Gardens</a></h4><p>My solo project at Prime. I created a garden app to help home' +
+  'gardeners better plan, organize, and track plants they have and when they planted. ' +
+  'The database is updated by the community of home gardeners. If a plant doesen\'t exist, ' +
+  'just add it! You can enjoy the app <a href="https://mysterious-gorge-27053.herokuapp.com/" ' +
+  'target="_blank" >here</a>!</p></li>' +
+  '<li><h4><a href="http://www.aaronrmcgrath.com/" >aaronrmcgrath.com</a>' +
+  '</h4><p>This site was built with jQuery and Bootstrap.</p></li>' +
   '</ul>' +
   '</div>');
 }

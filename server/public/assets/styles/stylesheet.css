@@ -6,9 +6,27 @@ html, body, h1, h2, h3, ol, ul, li, a {
       margin: 0;
 }
 
+body {
+
+}
+
+.welcome {
+  background-color: #CBEEF4;
+}
+
 #header {
   margin: auto;
   padding: 10px;
+}
+
+.button {
+  background-color: #7FC2CE;
+  color: white;
+}
+
+.button:hover {
+  background-color: #E2F7FB;
+  color: gray;
 }
 
 ul {
@@ -17,6 +35,10 @@ ul {
 
 h2 {
   margin: 15px;
+}
+
+h4 {
+  color: #a5b8da;
 }
 
 p {
