@@ -4,6 +4,8 @@
 
 $(document).ready(function(){
 
+  aboutMe();
+
   $('.about').on('click', aboutMe);
   $('.resume').on('click', resume);
   $('.examples').on('click', examples);
@@ -16,6 +18,7 @@ function aboutMe() {
   event.preventDefault();
   $('#show').empty();
   // console.log('This section is About Me!');
+
 
   $('#show').append('<div class="container about-me">' +
   '<h2 class="container text-center" >About Me</h2>' +
@@ -49,7 +52,7 @@ function resume() {
   // console.log('This section is my Resume!');
 
   $('#show').append('<div class="resume-section text-center" >' +
-  '<img src="/assets/files/armcgrath_resume.png" ' +
+  '<img class="resume" src="/assets/files/armcgrath_resume.png" ' +
   'width="100%" height="100%" >' +
   '<p>If you don\'t have a PDF plugin for this browser, no worries, download it ' +
   '<a href="/assets/files/armcgrath_resume.pdf">here</a></p>' +
