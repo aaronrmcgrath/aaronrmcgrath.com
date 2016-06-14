@@ -21,7 +21,7 @@ function aboutMe() {
 
 
   $('#show').append('<div class="container about-me">' +
-  '<h2 class="container text-center" >About Me</h2>' +
+  '<h2 class="container section-header text-center" >About Me</h2>' +
   '<p>I\'m a software developmer that loves learning and solving problems. I graduated from <a ' +
   'href="https://primeacademy.io/" target="_blank" >Prime Digital Academy</a> in ' +
   'Bloomington, MN in 2016. There I learned the MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js). ' +
@@ -29,16 +29,19 @@ function aboutMe() {
   'great technologies.' +
   '<br/>' +
   '<br/>' +
-  'My family is what makes me the happiest. I have a loving wife and two amazing boys. ' +
+  'My family is what makes me the happiest. I am a loving husband and proud father of two amazing boys. ' +
   'They always give me something to smile about. My hobbies are: hiking, gardening, video-games, ' +
   'cooking, movies/tv, comedy, writing, craft beer, board games, deep conversation, and discovery! ' +
   'I\'m addicted to learning and love to explore. Please feel free to contact me by ' +
   '<a href="mailto:info@aaronrmcgrath.com" >email</a>.</p>' +
-  '<div class="links text-center"><p>Here are links to my LinkedIn Profile and my Github ' +
+  '<div"><p class="container text-center" >Here are links to my LinkedIn Profile and my Github ' +
   'repository<p>' +
-  '<ul><li><a href="https://www.linkedin.com/in/aaron-mcgrath-969a9ba8" target="_blank">My LinkedIn Profile</a></li>' +
-  '<li><a href="https://github.com/aaronrmcgrath" target="_blank">My GitHub Repository</a></li>' +
-  '</ul>' +
+  '<div class="links">' +
+  '<a class="link" href="https://www.linkedin.com/in/aaron-mcgrath-969a9ba8" ' +
+  'target="_blank"><img src="/assets/files/linkedin_button.png" width="5%" height="5%" /></a> ' +
+  '<a class="link" href="https://github.com/aaronrmcgrath" target="_blank">' +
+  '<img src="/assets/files/github_button.png" width="5%" height"5%" /></a>' +
+  '</div>' +
   '</div>' +
   '</div>');
 
@@ -68,7 +71,7 @@ function examples() {
   // console.log('This section has Examples!');
 
   $('#show').append('<div class="container example-section" >' +
-  '<h2 class="container text-center" >Examples</h2>' +
+  '<h2 class="container section-header text-center" >Examples</h2>' +
   '<ul><li><h4><a href="https://mysterious-gorge-27053.herokuapp.com/" target="_blank" >Home Grown Gardens</a></h4><p>My solo project at Prime. I created a garden app to help home' +
   'gardeners better plan, organize, and track plants they have and when they planted. ' +
   'The database is updated by the community of home gardeners. If a plant doesen\'t exist, ' +

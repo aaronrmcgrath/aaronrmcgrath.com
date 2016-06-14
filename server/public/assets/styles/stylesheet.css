@@ -36,6 +36,10 @@ body {
   color: gray;
 }
 
+#show {
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
 }
@@ -49,8 +53,32 @@ p {
   padding: 5px;
 }
 
+.links {
+  text-align: center;
+  margin: auto;
+  padding: 10px 0 40px 0;
+}
+
+.link {
+  padding: 10px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
 .resume {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact {
+  margin: auto;
+  padding: 15px;
+}
+
+#footer {
+  background-color: #CBEEF4;
+  margin: 0;
 }
