@@ -20,12 +20,16 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
+    "express-subdomain": "^1.0.5",
+    "express-subdomains": "0.0.5",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "jquery": "^2.2.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "subdomain": "^1.2.0",
+    "vhost": "^3.0.2"
   }
 }

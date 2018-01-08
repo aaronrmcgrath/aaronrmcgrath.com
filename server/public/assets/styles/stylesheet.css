@@ -1,18 +1,26 @@
 /* STYLESHEET */
 
 html, body, h1, h2, h3, ol, ul, li, a {
+  height: 100%;
   padding: 0;
   border: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body {
 
+body {
+  background-color: grey;
 }
 
 .welcome {
-  background-color: #CBEEF4;
+  background-color: #1a1e1e; /* backup: #1f2624;*/ /* original color: #CBEEF4; */
   padding: 20px 0 0 0;
+  text-decoration-color: #ffffff;
+}
+
+.header {
+  color: #ffffff;
 }
 
 .profile {
@@ -27,13 +35,13 @@ body {
 }
 
 .button {
-  background-color: #7FC2CE;
-  color: white;
+  background-color: #1f2624;/* original color: #7FC2CE;*/
+  color: #ffffff;
 }
 
 .button:hover {
-  background-color: #E2F7FB;
-  color: gray;
+  background-color: #c4cdce; /*original color: #E2F7FB; */
+  color: black;
 }
 
 #show {
@@ -49,18 +57,40 @@ h4 {
 }
 
 p {
+  color: #ffffff;
   margin: 10px;
   padding: 5px;
 }
 
+a  {
+  color: #516389;
+}
+
 .links {
+  /*
   text-align: center;
   margin: auto;
   padding: 10px 0 40px 0;
+  color: #11446d;
+  */
+
+  margin-top: 5%;
+  text-align: center;
 }
 
 .link {
   padding: 10px;
+  color: #11446d;
+}
+
+.plink {
+  color: #11446d;
+}
+
+.plink:hover {
+  background-color: #c4cdce; /*original color: #E2F7FB; */
+  text-decoration: none;
+  text-decoration-color: : black;
 }
 
 .link:hover {
@@ -73,12 +103,31 @@ p {
   margin-right: auto;
 }
 
+.details {
+  margin: auto;
+  padding-top: 6%;
+}
+
 .contact {
   margin: auto;
   padding: 15px;
 }
 
 #footer {
-  background-color: #CBEEF4;
+  background-color: #1f2624;/* original color: #CBEEF4; */
+  /*
   margin: 0;
+  bottom : 0;
+  position : absolute;
+  display: table;
+  vertical-align: middle;
+  */
+
+  position : absolute;
+  display: table;
+  height : 15%;
+  margin-top : 20%;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
 }
