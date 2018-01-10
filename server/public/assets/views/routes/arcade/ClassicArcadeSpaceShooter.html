@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Classic Arcade Space Shooter (asteroid clone)</title>
+  </head>
+  <body>
+    <h3 align="center">Classic Arcade Space Shooter</h3>
+    <p align="center">Good luck!</p>
+
+    <a href="http://arcade.aaronrmcgrath.com"><button>Back</button></a>
+
+    <canvas id="gameCanvas" width="800" height="600" style="margin-left:auto; margin-right:auto; display:block;" ></canvas>
+
+    <script type="text/javascript">
+
+      // loads game once page is fully loaded
+      window.onload = function () {
+        console.log("Hello, World!");
+        canvas = document.getElementById('gameCanvas');
+        canvasContext = canvas.getContext('2d');
+        colorRect(0,0,canvas.width,canvas.height, 'black');
+      }
+
+
+        function colorRect(leftX, topY, width, height, drawColor) {
+        	canvasContext.fillStyle = drawColor;
+        	canvasContext.fillRect(leftX,topY,width,height);
+        }
+
+    </script>
+
+  </body>
+</html>
